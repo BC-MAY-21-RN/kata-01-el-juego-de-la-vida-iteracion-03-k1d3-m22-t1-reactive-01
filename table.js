@@ -4,7 +4,6 @@ class Table {
   constructor(x, y, cadena) {
     this.matriz = this.rellenarMatriz(x, y, cadena);
   }
-
   generarMatriz(x, y) {
     return Array(x).fill(new Cell()).map(() => (new Array(y).fill(new Cell())));
   }
